@@ -1,0 +1,26 @@
+.venv/
+.venv-mlflow/
+__pycache__/
+*.pyc
+
+# Model weights and adapters
+*.safetensors
+*.bin
+*.pt
+*.pth
+outputs/
+checkpoints/
+
+# Optional MLflow defaults (project tracking data lives under outputs/)
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+
+# Local data and indexes
+data/
+*.faiss
+*.index
+
+# Local historical experiments
+/archive/
